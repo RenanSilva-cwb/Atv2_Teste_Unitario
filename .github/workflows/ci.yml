@@ -35,4 +35,4 @@ jobs:
         run: npm test
 
       - name: Cobertura de testes
-        run: npm test -- -- coverage
+        run: npm test -- --coverage
